@@ -26,7 +26,7 @@ class Areality():
         axis = np.float32([[1,1,0], [3,5,0], [5,1,0],[3,3,-3]]).reshape(-1,3)
 
         cv.namedWindow("output", cv.WINDOW_NORMAL)
-        img = cv.imread('Q2_Image/' +str(k)+'.bmp')
+        img = cv.imread('Image/' +str(k)+'.bmp')
         gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
         # Find the chess board corners
